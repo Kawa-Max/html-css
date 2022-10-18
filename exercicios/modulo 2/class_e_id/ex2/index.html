@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+
+        body{
+            background-image: linear-gradient(to left, rgba(60, 137, 163, 0.733), rgba(57, 150, 136, 0.699));
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover{
+            background-color: rgb(8, 153, 141);
+        }
+
+        div > p{
+            display: none;
+        }
+        
+        div:hover > p{
+            display: block;
+            color: rgb(3, 56, 3);
+            background-color: brown;
+        }
+
+
+        p{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Classes</h1>
+    <div id="d1">
+        01
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+    <div id="d2">
+        02
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+    <div id="d3">
+        03
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+    <div id="d4">
+        04
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+    <div id="d5">
+        05
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+    <div id="d6">
+        06
+        <p>Lorem ipsum, saepe doloribus ut!</p>
+
+    </div>
+
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div id="especial">
+        Passe o mouse aqui
+        <p>Texto escondido</p>
+    </div>
+
+</body>
+</html>

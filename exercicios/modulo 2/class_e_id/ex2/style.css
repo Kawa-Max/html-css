@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-color:  rgb(214, 253, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h2{
+    color: #3c805e;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.basico{
+    color: #07a389;
+}
+
+.intermediario{
+    color: #909b50d8;
+}
+
+.avancado{
+    color: #9b5050d8;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    border-radius: 7px;
+    width: 500px;
+    box-shadow: 1px 1px 7px rgb(158, 190, 173);;
+}
+
+.destaque{
+    background-color: #c5c56070;
+    width: 350px;
+}

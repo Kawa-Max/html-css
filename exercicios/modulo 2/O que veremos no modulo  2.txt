@@ -1,0 +1,27 @@
+ ------------------------------------------------------------------------------------------
+Cores:
+	Psicologia das cores
+	Circulo Cromatico
+	Paleta de cores
+
+Tipografia:
+	Anatomia do tipo
+	Familia tipografica
+	Integração com cor e tipo
+	Css aplicadas aos tipo
+	Alinhamento de paragrafos
+	Fontes
+	
+Css id;
+Clases:
+	Pseudoclasses
+	Pseudoelementos
+
+variaveis;
+
+Modelo de caixas;
+
+Criar um site do zero 
+
+
+ ------------------------------------------------------------------------------------------

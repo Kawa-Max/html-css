@@ -1,0 +1,16 @@
+<h1>Tocando uma musica no meu site</h1>
+    <p>Para tocar um audio no html, usamos a tag &lt;audio&gt;</p>
+    <p>e passamos alguns parametros para tocar a musica automaticamente ou com botão de play</p>
+    <audio src="midia/happy.mp3" autoplay controls></audio>
+    <h1>
+        Já daqui pra baixo, é uma forma melhor de <br>fazer a mesma coisa, porem usando 3 tipos<br>diferentes de audio mas Obviamente que <br>apenas 1 irá tocar... Ou será que não hahaha
+    </h1>
+    <!--Existe 3 tipos de audios compativéis com o HTML5, que seria o MP3(MPEG), Ogg e o WAV-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Skylines.mp3" type="audio/mpeg">
+        <source src="midia/Skylines.ogg" type="audio/ogg">
+        <source src="midia/Skylines.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio
+            <a href="midia/Skylines.mp3">Clique aqui para fazer o download do arquivo Mp3</a>
+        </p>
+    </audio>
