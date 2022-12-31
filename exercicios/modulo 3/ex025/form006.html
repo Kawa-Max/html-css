@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        legend {
+            font-weight: bolder;
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testes com Formulários</h1>
+
+    <form action="cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>Color, range e File</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" value="#d3d3d3">
+            </p>
+            <p>
+                <label for="iniv">Nível de Satisfação: </label>
+                <input type="range" name="niv" id="iniv" min="1" max="10">
+            </p>
+            <p>
+                <label for="ifoto">Foto do Perfil:</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
