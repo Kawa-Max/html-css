@@ -32,20 +32,20 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 500px;
-    border-radius: 0px 0px 20px 20px;
-
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.440);
 
 }
 
 #imagem {
     display: block;
-    background:  rgb(95, 44, 130) url(../imagens/background.jpg);
+    background:  rgb(95, 44, 130) url(../imagens/background.jpg) no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: left center;
     height: 200px;
 }
