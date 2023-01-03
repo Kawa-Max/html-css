@@ -40,6 +40,9 @@ main {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.440);
 
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
 }
 
 #imagem {
